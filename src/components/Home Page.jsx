@@ -4,9 +4,9 @@ function Home() {
   return (
     <>
       <div className="nav">
-        <img src="src/components/assets/microsoft.png" className="logo2" />
+        <img src="/assets/microsoft.png" className="logo2" alt="Microsoft" />
         <div className="verticalline"></div>
-        <img src="src/components/assets/xbox.png" className="logo" />
+        <img src="/assets/xbox.png" className="logo" alt="Xbox" />
         <ul>
           <li><a>Game Pass &gt;</a></li>
           <li><a>Games &gt;</a></li>
@@ -24,7 +24,7 @@ function Home() {
 
       <div className="carousel">
         <video
-          src="src/components/assets/Xbox Official Site- Consoles, Games, and Community.mp4"
+          src="/assets/video.mp4"
           autoPlay
           loop
           muted
@@ -42,48 +42,48 @@ function Home() {
 
       <div className="icons">
         <div className="iT" data-aos="zoom-in">
-          <img src="src/components/assets/i1.png" alt="" />
+          <img src="/assets/i1.png" alt="Game Pass" />
           <span>GAME PASS</span>
         </div>
         <div className="iT" data-aos="zoom-in">
-          <img src="src/components/assets/i2.png" alt="" />
+          <img src="/assets/i2.png" alt="Games" />
           <span>GAMES</span>
         </div>
         <div className="iT" data-aos="zoom-in">
-          <img src="src/components/assets/i3.png" alt="" />
+          <img src="/assets/i3.png" alt="Consoles" />
           <span>CONSOLES</span>
         </div>
         <div className="iT" data-aos="zoom-in">
-          <img src="src/components/assets/i4.png" alt="" />
+          <img src="/assets/i4.png" alt="Accessories" />
           <span>ACCESSORIES</span>
         </div>
         <div className="iT" data-aos="zoom-in">
-          <img src="src/components/assets/i5.png" alt="" />
+          <img src="/assets/i5.png" alt="Play" />
           <span>PLAY</span>
         </div>
         <div className="iT" data-aos="zoom-in">
-          <img src="src/components/assets/i6.png" alt="" />
+          <img src="/assets/i6.png" alt="Sign In" />
           <span>SIGN IN</span>
         </div>
       </div>
 
       <div className="cardS">
         <div className="cD1" data-aos="fade-up">
-          <img src="src/components/assets/cd1.jpg" alt="Card 1" />
+          <img src="/assets/cd1.jpg" alt="Card 1" />
         </div>
         <div className="cD2" data-aos="fade-up">
-          <img src="src/components/assets/cd2.jpg" alt="Card 2" />
+          <img src="/assets/cd2.jpg" alt="Card 2" />
         </div>
         <div className="cD3" data-aos="fade-up">
-          <img src="src/components/assets/cd3.jpg" alt="Card 3" />
+          <img src="/assets/cd3.jpg" alt="Card 3" />
         </div>
         <div className="cD4" data-aos="fade-up">
-          <img src="src/components/assets/cd4.jpg" alt="Card 4" />
+          <img src="/assets/cd4.jpg" alt="Card 4" />
         </div>
       </div>
 
       <div className="sec" data-aos="fade-up">
-        <img src="src/components/assets/item1.jpg" alt="Xbox Series X|S" />
+        <img src="/assets/item1.jpg" alt="Xbox Series X|S" />
         <div className="context">
           <div className="h1">Power Your Dreams</div>
           <div className="para">
